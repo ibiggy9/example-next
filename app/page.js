@@ -1,4 +1,5 @@
 import Link from 'next/link'
+"use-client"
 
 export default function Home() {
   return (
@@ -8,16 +9,16 @@ export default function Home() {
           Hello, Welcome to my Personal Website
         </div>
 
-        <div className="mt-4 text-center">
+        <div className="mt-4 text-center hover:animate-spin">
           <Link
             href="/portfolio"
-            className="inline-block mt-2 px-4 py-1 text-white bg-blue-500 rounded hover:bg-blue-700 transition"
+            className="inline-block mt-2 px-4 py-1 text-white bg-blue-500 rounded hover:bg-blue-700"
           >
             Check out my Portfolio
           </Link>
         </div>
 
-        <div className="mt-4 text-center">
+        <div className="mt-4 text-center hover:animate-bounce">
           <Link
             href="/blog"
             className="inline-block mt-2 px-4 py-1 text-white bg-blue-500 rounded hover:bg-blue-700 transition"
@@ -34,7 +35,7 @@ export default function Home() {
 
         <Link
           href="/contact"
-          className="inline-block mt-4 ml-8 px-4 py-1 text-white bg-blue-500 rounded hover:bg-blue-700 transition"
+          className="inline-block mt-4 ml-8 px-4 py-1 text-white bg-blue-500 rounded hover:bg-blue-700 hover:scale-125 ease-in-out duration-150"
         >
           Contact Me
         </Link>
