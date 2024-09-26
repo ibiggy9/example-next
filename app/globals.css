@@ -9,15 +9,23 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #f0dce2;
+    --foreground: #090101;
   }
 }
 
 body {
+  @apply ml-5 mt-5;
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  /* Set font */
+  font-weight: bold;
+  /* Make bold */
 }
 
 @layer utilities {
