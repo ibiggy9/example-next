@@ -30,20 +30,32 @@ export default function Portfolio() {
         <div className="text-2xl">Portfolio Overview</div>
         <div className="flex space-x-4 mt-4">
 
-          <div className="mt-4 p-2 h-60 w-60 border rounded shadow">
-            <div className="text-xl font-semibold">App1</div>
-            <div className="mt-2 h-16 border-dashed border-gray-300 flex items-center justify-center">
+          <div id="Card-1" className="flex flex-col  justify-evenly border items-center rounded shadow border-black border-dashed">
+            <div>Some Image</div>
+            <div className="text-xl font-semibold">123 Fake St</div>
+            <div className="flex flex-row justify-center text-center bg-slate-300" id="Block of features">
+              <div className="flex flex-col">
+                <div>1 </div> 
+                <div>Bed</div>
+              </div>
+              <div className="flex flex-col">
+                <div>1 </div> 
+                <div>Bed</div>
+              </div>
+              <div className="flex flex-col">
+                <div>1 </div> 
+                <div>Bed</div>
+              </div>
             </div>
+            <div>View Property</div>
           </div>
-          <div className="mt-4 p-2 h-60 w-60 border rounded shadow">
+          <div className="mt-4 p-2 h-60 w-60 border rounded shadow border-black">
             <div className="text-xl font-semibold">App2</div>
-            <div className="mt-2 h-16 border-dashed border-gray-300 flex items-center justify-center">
-            </div>
+
           </div>
           <div className="mt-4 p-2 h-60 w-60 border rounded shadow">
             <div className="text-xl font-semibold">App3</div>
-            <div className="mt-2 h-16 border-dashed border-gray-300 flex items-center justify-center">
-            </div>
+      
           </div>
 
         </div>
@@ -52,18 +64,15 @@ export default function Portfolio() {
 
           <div className="mt-4 p-2 h-60 w-60 border rounded shadow">
             <div className="text-xl font-semibold">App4</div>
-            <div className="mt-2 h-16 border-dashed border-gray-300 flex items-center justify-center">
-            </div>
+          
           </div>
           <div className="mt-4 p-2 h-60 w-60 border rounded shadow">
             <div className="text-xl font-semibold">App5</div>
-            <div className="mt-2 h-16 border-dashed border-gray-300 flex items-center justify-center">
-            </div>
+        
           </div>
           <div className="mt-4 p-2 h-60 w-60 border rounded shadow">
             <div className="text-xl font-semibold">App6</div>
-            <div className="mt-2 h-16 border-dashed border-gray-300 flex items-center justify-center">
-            </div>
+          
           </div>
 
         </div>
